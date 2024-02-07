@@ -1,0 +1,66 @@
+2024-02-07 19:07:56,381 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:07:56,381 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:08:00,787 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:08:01,005 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:08:03,792 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:12:27,678 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:12:27,719 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:12:33,717 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:12:34,256 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:12:38,386 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:12:48,221 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:12:48,221 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:12:51,796 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:12:51,975 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:12:54,404 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:21:53,811 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:21:53,874 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:21:59,686 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:22:00,107 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:22:04,157 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:22:13,478 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:22:13,478 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:22:16,583 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:22:16,770 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:22:19,229 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:22:59,967 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:22:59,967 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:23:03,864 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:23:04,284 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:23:07,781 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:29:18,294 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:29:18,294 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:29:23,384 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:29:23,803 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:29:27,240 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:29:35,916 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:29:35,916 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:29:39,026 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:29:39,219 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:29:41,914 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:29:48,394 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:29:48,394 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:29:54,106 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:29:54,482 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:29:58,082 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:51:13,445 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-07 19:51:15,011 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-07 19:51:15,011 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-07 19:51:33,549 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:51:33,549 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:51:37,794 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:51:38,194 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:51:41,777 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:51:50,612 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:51:50,612 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:51:54,783 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:51:54,956 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:51:58,258 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:52:04,139 : INFO : Test_001_Login : test_admin_login : 16 : *************** Test_001_Login-Admin ***************** 
+2024-02-07 19:52:04,139 : INFO : Test_001_Login : test_admin_login : 18 : *************** Navigating to Login ***************** 
+2024-02-07 19:52:10,336 : INFO : Test_001_Login : test_admin_login : 21 : *************** Entering ID and Password ***************** 
+2024-02-07 19:52:10,788 : INFO : Test_001_Login : test_admin_login : 24 : *************** Click on Login ***************** 
+2024-02-07 19:52:14,647 : INFO : Test_001_Login : test_admin_login : 31 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-07 19:52:15,168 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-07 19:52:16,615 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-07 19:52:16,615 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
