@@ -15,27 +15,27 @@ def pytest_html_report_title(report):
 # -------------------------------------------Single Browser Run---------------------------------------------------------
 
 # This will get the value from CLI /hooks
-# def pytest_addoption(parser):
-#     parser.addoption("--browser")
+def pytest_addoption(parser):
+    parser.addoption("--browser")
 
-# @pytest.fixture(scope='session', autouse=True)
-# def setup(request):
-#     browser = request.config.getoption("--browser")
-#     if browser == 'chrome':
-#         driver = webdriver.Chrome()
-#         print("Launching chrome browser.........")
-#     elif browser == 'firefox':
-#         driver = webdriver.Firefox()
-#         print("Launching firefox browser.........")
-#     elif browser == 'edge':
-#         driver = webdriver.Edge()
-#         print("Launching firefox browser.........")
-#     else:
-#         driver = webdriver.Firefox()
-#     driver.maximize_window()
-#     driver.implicitly_wait(4)
-#     yield driver
-#     driver.close()
+@pytest.fixture
+def setup(request):
+    browser = request.config.getoption("--browser")
+    if browser == 'chrome':
+        driver = webdriver.Chrome()
+        print("Launching chrome browser.........")
+    elif browser == 'firefox':
+        driver = webdriver.Firefox()
+        print("Launching firefox browser.........")
+    elif browser == 'edge':
+        driver = webdriver.Edge()
+        print("Launching firefox browser.........")
+    else:
+        driver = webdriver.Chrome()
+    driver.maximize_window()
+    driver.implicitly_wait(4)
+    yield driver
+    driver.close()
 
 
 # -----------------------------------------------------------main code ende---------------------------------------------------
@@ -56,19 +56,19 @@ def pytest_html_report_title(report):
 #
 #
 # # -----------------------------Cross Browser Run-----------------------------------------------------
-@pytest.fixture(params=["chrome", "firefox","edge"],scope="module")
-def setup(request):
-    if request.param == "chrome":
-        driver = webdriver.Chrome()
-        print("Launching chrome browser.........")
-    elif request.param == "firefox":
-        driver = webdriver.Firefox()
-    elif request.param == "edge":
-        driver = webdriver.Edge()
-    driver.maximize_window()
-    driver.implicitly_wait(4)
-    yield driver
-    driver.close()
+# @pytest.fixture(params=["chrome", "firefox","edge"],scope="module")
+# def setup(request):
+#     if request.param == "chrome":
+#         driver = webdriver.Chrome()
+#         print("Launching chrome browser.........")
+#     elif request.param == "firefox":
+#         driver = webdriver.Firefox()
+#     elif request.param == "edge":
+#         driver = webdriver.Edge()
+#     driver.maximize_window()
+#     driver.implicitly_wait(4)
+#     yield driver
+#     driver.close()
 
 
 # ----------------------------------------------------------------------------------------------------------------
