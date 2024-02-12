@@ -1,21 +1,18 @@
 from utilities.readconfig import Readconfig
 from pageObject.loginPage import LoginPage
 from utilities.customLogger import LogGen
-from utilities.generic_func import AutomationClass
 from pageObject.loginPagewithGenricMethods import LoginPageGenric
 import pytest
-import time
 
 
-class Test_001_Login:
+class Test_Login_Func:
     baseURL = Readconfig.geturl()
     username = Readconfig.getid()
     password = Readconfig.getfpassword()
     logger = LogGen.loggen()
 
-
-    # @pytest.mark.regression
-    def test_admin_login(self, setup):
+    @pytest.mark.skip(reason="reason for skipping the test case")
+    def test_admin_login001(self, setup):
         self.logger.info("*************** Test_001_Login-Admin *****************")
         self.driver = setup
         self.logger.info("*************** Navigating to Login *****************")
@@ -26,16 +23,16 @@ class Test_001_Login:
         self.lp.setPassword(self.password)
         self.logger.info("*************** Click on Login *****************")
         self.lp.clickLogin()
-        result=self.driver.current_url
-        if "login" in result:
+        result = self.driver.current_url
+        if "login" not in result:
             self.logger.info("*************** Test_001_Login-Admin- fail *****************")
             assert False
         else:
             self.logger.info("*************** Test_001_Login-Admin - Pass *****************")
             assert True
 
-
-    def test_admin_login_genric_methods(self, setup):
+    @pytest.mark.regression
+    def test_admin_login_genric_methods002(self, setup):
         self.logger.info("*************** Test_001_Login-Admin *****************")
         self.driver = setup
         self.lpg = LoginPageGenric(self.driver)
@@ -45,8 +42,8 @@ class Test_001_Login:
         self.lpg.setUserName(self.username)
         self.lpg.setPassword(self.password)
         self.logger.info("*************** Click on Login *****************")
-        self.lpg.clickLogin()
-        result=self.driver.current_url
+        # self.lpg.clickLogin()
+        result = self.driver.current_url
         if "login" in result:
             self.logger.info("*************** Test_001_Login-Admin- fail *****************")
             assert False

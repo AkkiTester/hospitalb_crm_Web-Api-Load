@@ -1,4 +1,3 @@
-from selenium.webdriver.common.by import By
 from utilities.generic_func import AutomationClass
 
 
@@ -27,3 +26,8 @@ class LoginPageGenric(AutomationClass):
 
     def clickLogout(self):
         pass
+
+    def loginfullstep(self,username,password):
+        self.setUserName(username)
+        self.setPassword(password)
+        self.clickLogin()

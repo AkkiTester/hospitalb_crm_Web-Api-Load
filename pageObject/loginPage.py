@@ -25,3 +25,8 @@ class LoginPage:
     def clickLogout(self):
         # self.driver.find_element_by_link_text(self.link_logout_linktext).click()
         pass
+
+    def loginfullsteep(self, username, password):
+        self.setUserName(username)
+        self.setPassword(password)
+        self.button_login_xpath()
