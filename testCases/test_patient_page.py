@@ -47,8 +47,8 @@ class Test_Patien_Func:
         self.pp = PatientPage(self.driver)
 
         try:
-            self.pp.searchPatient("test2")
-            element = self.driver.find_element('xpath',"//td[normalize-space()='test2']")
+            self.pp.searchPatient("abcdef")
+            element = self.driver.find_element('xpath',"//td[normalize-space()='abcdef']")
             self.logger.info("*************** Test_patient_list_display - pass*****************")
             # Assert that the element is displayed
             assert element.is_displayed(), "Element is not displayed"
@@ -56,6 +56,7 @@ class Test_Patien_Func:
         except :
             self.logger.info("*************** Test_patient_list_display - fail *****************")
             print("Assertion failed: Element with text 'test2' not found")
+            assert False
 
     def test_SearchPatient_003(self,setup):
         self.logger.info("*************** Test_SearchPatient *****************")
@@ -73,7 +74,7 @@ class Test_Patien_Func:
 
         try:
             self.pp.searchPatient(self.pp.patientname)
-            element = self.driver.find_element('xpath',f"//td[normalize-space()={self.pp.patientname}]")
+            element = self.driver.find_element('xpath',f"//td[normalize-space()='{self.pp.patientname}']")
             self.logger.info("*************** Test_patient_list_display - pass*****************")
             # Assert that the element is displayed
             assert element.is_displayed(), "Element is not displayed"

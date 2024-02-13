@@ -42,7 +42,7 @@ class Test_Login_Func:
         self.lpg.setUserName(self.username)
         self.lpg.setPassword(self.password)
         self.logger.info("*************** Click on Login *****************")
-        # self.lpg.clickLogin()
+        self.lpg.clickLogin()
         result = self.driver.current_url
         if "login" in result:
             self.logger.info("*************** Test_001_Login-Admin- fail *****************")

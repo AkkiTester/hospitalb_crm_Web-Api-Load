@@ -792,3 +792,434 @@
 2024-02-12 09:12:48,019 : INFO : Test_Patien_Func : test_SearchPatient_003 : 68 : *************** Click on patient page ***************** 
 2024-02-12 09:12:48,681 : INFO : Test_Patien_Func : test_SearchPatient_003 : 71 : *************** Searching patient page ***************** 
 2024-02-12 09:12:52,897 : INFO : Test_Patien_Func : test_SearchPatient_003 : 82 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 14:03:36,700 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 14:03:36,909 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 14:03:44,534 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 14:03:45,111 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 14:03:45,121 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 48 : *************** Test_001_Login-Admin- fail ***************** 
+2024-02-13 14:03:46,259 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 14:03:47,724 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 14:03:47,724 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 14:03:50,463 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 14:03:50,464 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 14:03:58,587 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:04:09,202 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 14:04:10,205 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 14:04:13,177 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 14:04:13,177 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 14:04:31,398 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:04:40,988 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 14:04:41,627 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 14:04:43,823 : INFO : Test_Patien_Func : test_SearchPatient__002 : 52 : *************** Test_patient_list_display - pass***************** 
+2024-02-13 14:04:47,278 : INFO : Test_Patien_Func : test_SearchPatient_003 : 61 : *************** Test_SearchPatient ***************** 
+2024-02-13 14:04:47,279 : INFO : Test_Patien_Func : test_SearchPatient_003 : 64 : *************** Navigating to Login ***************** 
+2024-02-13 14:05:12,190 : INFO : Test_Patien_Func : test_SearchPatient_003 : 66 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:06:00,389 : INFO : Test_Patien_Func : test_SearchPatient_003 : 68 : *************** Click on patient page ***************** 
+2024-02-13 14:06:01,493 : INFO : Test_Patien_Func : test_SearchPatient_003 : 71 : *************** Searching patient page ***************** 
+2024-02-13 14:06:05,663 : INFO : Test_Patien_Func : test_SearchPatient_003 : 82 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 14:10:43,299 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 14:10:43,300 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 14:10:50,450 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 14:10:50,850 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 14:10:50,857 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 48 : *************** Test_001_Login-Admin- fail ***************** 
+2024-02-13 14:10:51,842 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 14:10:53,203 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 14:10:53,203 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 14:10:55,423 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 14:10:55,423 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 14:11:04,256 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:11:11,006 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 14:11:11,794 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 14:11:14,329 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 14:11:14,329 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 14:11:17,544 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:11:37,762 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 14:11:38,492 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 14:11:39,726 : INFO : Test_Patien_Func : test_SearchPatient__002 : 52 : *************** Test_patient_list_display - pass***************** 
+2024-02-13 14:11:42,240 : INFO : Test_Patien_Func : test_SearchPatient_003 : 61 : *************** Test_SearchPatient ***************** 
+2024-02-13 14:11:42,240 : INFO : Test_Patien_Func : test_SearchPatient_003 : 64 : *************** Navigating to Login ***************** 
+2024-02-13 14:11:49,708 : INFO : Test_Patien_Func : test_SearchPatient_003 : 66 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:11:54,554 : INFO : Test_Patien_Func : test_SearchPatient_003 : 68 : *************** Click on patient page ***************** 
+2024-02-13 14:11:55,319 : INFO : Test_Patien_Func : test_SearchPatient_003 : 71 : *************** Searching patient page ***************** 
+2024-02-13 14:11:59,567 : INFO : Test_Patien_Func : test_SearchPatient_003 : 82 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 14:22:29,597 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 14:22:29,611 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 14:22:36,890 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 14:22:37,291 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 14:22:37,300 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 48 : *************** Test_001_Login-Admin- fail ***************** 
+2024-02-13 14:22:38,074 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 14:22:39,376 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 14:22:39,376 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 14:22:41,509 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 14:22:41,510 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 14:22:49,815 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:22:55,405 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 14:22:57,023 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 14:22:59,498 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 14:22:59,498 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 14:23:05,928 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:23:12,203 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 14:23:12,918 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 14:23:13,990 : INFO : Test_Patien_Func : test_SearchPatient__002 : 52 : *************** Test_patient_list_display - pass***************** 
+2024-02-13 14:23:16,404 : INFO : Test_Patien_Func : test_SearchPatient_003 : 61 : *************** Test_SearchPatient ***************** 
+2024-02-13 14:23:16,404 : INFO : Test_Patien_Func : test_SearchPatient_003 : 64 : *************** Navigating to Login ***************** 
+2024-02-13 14:23:22,555 : INFO : Test_Patien_Func : test_SearchPatient_003 : 66 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:23:28,909 : INFO : Test_Patien_Func : test_SearchPatient_003 : 68 : *************** Click on patient page ***************** 
+2024-02-13 14:23:29,717 : INFO : Test_Patien_Func : test_SearchPatient_003 : 71 : *************** Searching patient page ***************** 
+2024-02-13 14:23:34,208 : INFO : Test_Patien_Func : test_SearchPatient_003 : 82 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 14:26:36,516 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 14:26:36,559 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 14:26:41,844 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:26:47,242 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 14:26:48,548 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 14:26:51,133 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 14:26:51,133 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 14:26:54,334 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:27:04,770 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 14:27:05,549 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 14:27:06,696 : INFO : Test_Patien_Func : test_SearchPatient__002 : 52 : *************** Test_patient_list_display - pass***************** 
+2024-02-13 14:27:09,132 : INFO : Test_Patien_Func : test_SearchPatient_003 : 61 : *************** Test_SearchPatient ***************** 
+2024-02-13 14:27:09,133 : INFO : Test_Patien_Func : test_SearchPatient_003 : 64 : *************** Navigating to Login ***************** 
+2024-02-13 14:27:14,667 : INFO : Test_Patien_Func : test_SearchPatient_003 : 66 : *************** Entering ID and Password and login ***************** 
+2024-02-13 14:27:21,626 : INFO : Test_Patien_Func : test_SearchPatient_003 : 68 : *************** Click on patient page ***************** 
+2024-02-13 14:27:22,277 : INFO : Test_Patien_Func : test_SearchPatient_003 : 71 : *************** Searching patient page ***************** 
+2024-02-13 14:27:26,694 : INFO : Test_Patien_Func : test_SearchPatient_003 : 82 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 16:35:33,026 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 16:35:33,026 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 16:35:42,467 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 16:35:50,236 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 16:35:50,880 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 16:35:53,628 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 16:35:53,628 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 16:36:12,556 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 16:44:42,881 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 16:44:42,881 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 16:44:48,687 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 16:44:52,496 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 16:44:53,104 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 16:44:55,639 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 16:44:55,640 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 16:45:01,542 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 16:45:06,098 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 16:45:06,845 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 16:45:08,492 : INFO : Test_Patien_Func : test_SearchPatient__002 : 52 : *************** Test_patient_list_display - pass***************** 
+2024-02-13 16:45:11,393 : INFO : Test_Patien_Func : test_SearchPatient_003 : 61 : *************** Test_SearchPatient ***************** 
+2024-02-13 16:45:11,394 : INFO : Test_Patien_Func : test_SearchPatient_003 : 64 : *************** Navigating to Login ***************** 
+2024-02-13 16:45:17,302 : INFO : Test_Patien_Func : test_SearchPatient_003 : 66 : *************** Entering ID and Password and login ***************** 
+2024-02-13 16:45:22,026 : INFO : Test_Patien_Func : test_SearchPatient_003 : 68 : *************** Click on patient page ***************** 
+2024-02-13 16:45:22,722 : INFO : Test_Patien_Func : test_SearchPatient_003 : 71 : *************** Searching patient page ***************** 
+2024-02-13 16:45:27,016 : INFO : Test_Patien_Func : test_SearchPatient_003 : 82 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 17:55:00,799 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 17:55:00,800 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 17:58:50,064 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 17:58:50,064 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:00:08,328 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:00:08,329 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:02:06,226 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:02:06,226 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:02:50,536 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:02:50,536 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:02:56,452 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:11:12,754 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:11:12,761 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:11:20,807 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:12:15,117 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:12:15,118 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:12:22,149 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:13:49,903 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:13:49,903 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:13:56,966 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:15:38,777 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:15:38,777 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:15:45,240 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:17:57,543 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:17:57,544 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:18:04,204 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:21:16,390 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:21:16,391 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:21:22,472 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:23:12,770 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:23:12,770 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:23:18,494 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:25:34,653 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:25:34,655 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:25:41,827 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:26:36,607 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:26:36,629 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:26:43,132 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:26:43,452 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 18:26:48,361 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 48 : *************** Test_001_Login-Admin- fail ***************** 
+2024-02-13 18:30:19,633 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:30:19,634 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:30:25,944 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:30:26,330 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 18:30:37,668 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 18:31:16,066 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:31:16,066 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:31:22,046 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:31:30,491 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 18:31:51,987 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 18:35:45,563 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:35:45,563 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:35:50,734 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:35:59,203 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 18:36:08,116 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 18:36:08,522 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 18:36:31,108 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 18:36:31,108 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 18:36:33,036 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 18:36:33,048 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 18:36:38,667 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 18:36:59,313 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 18:37:03,621 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 18:37:03,621 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:37:08,470 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 18:37:27,875 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 18:37:32,559 : INFO : Test_Patien_Func : test_SearchPatient_003 : 61 : *************** Test_SearchPatient ***************** 
+2024-02-13 18:37:32,560 : INFO : Test_Patien_Func : test_SearchPatient_003 : 64 : *************** Navigating to Login ***************** 
+2024-02-13 18:37:37,195 : INFO : Test_Patien_Func : test_SearchPatient_003 : 66 : *************** Entering ID and Password and login ***************** 
+2024-02-13 18:37:55,567 : INFO : Test_Patien_Func : test_SearchPatient_003 : 68 : *************** Click on patient page ***************** 
+2024-02-13 18:39:25,296 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:39:25,296 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:39:31,222 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:39:35,680 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 18:39:46,232 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 18:39:46,694 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 18:40:08,992 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 18:40:08,992 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 18:40:10,925 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 18:40:10,926 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 18:40:16,186 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 18:40:29,242 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 18:40:32,228 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 18:40:32,228 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:40:36,597 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 18:40:49,983 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 18:40:52,902 : INFO : Test_Patien_Func : test_SearchPatient_003 : 61 : *************** Test_SearchPatient ***************** 
+2024-02-13 18:40:52,902 : INFO : Test_Patien_Func : test_SearchPatient_003 : 64 : *************** Navigating to Login ***************** 
+2024-02-13 18:40:56,348 : INFO : Test_Patien_Func : test_SearchPatient_003 : 66 : *************** Entering ID and Password and login ***************** 
+2024-02-13 18:41:13,163 : INFO : Test_Patien_Func : test_SearchPatient_003 : 68 : *************** Click on patient page ***************** 
+2024-02-13 18:42:49,224 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 18:42:49,224 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:42:54,542 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 18:42:54,912 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 18:43:05,326 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 18:43:05,614 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 18:43:27,995 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 18:43:27,995 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 18:43:30,082 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 18:43:30,082 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 18:43:36,298 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 18:43:47,202 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 18:43:48,739 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 18:43:51,256 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 18:43:51,256 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 18:43:57,171 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 18:44:07,599 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 18:44:08,529 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 18:44:09,715 : INFO : Test_Patien_Func : test_SearchPatient__002 : 52 : *************** Test_patient_list_display - pass***************** 
+2024-02-13 18:44:12,465 : INFO : Test_Patien_Func : test_SearchPatient_003 : 61 : *************** Test_SearchPatient ***************** 
+2024-02-13 18:44:12,466 : INFO : Test_Patien_Func : test_SearchPatient_003 : 64 : *************** Navigating to Login ***************** 
+2024-02-13 18:44:17,205 : INFO : Test_Patien_Func : test_SearchPatient_003 : 66 : *************** Entering ID and Password and login ***************** 
+2024-02-13 18:44:27,607 : INFO : Test_Patien_Func : test_SearchPatient_003 : 68 : *************** Click on patient page ***************** 
+2024-02-13 18:44:28,313 : INFO : Test_Patien_Func : test_SearchPatient_003 : 71 : *************** Searching patient page ***************** 
+2024-02-13 18:44:33,387 : INFO : Test_Patien_Func : test_SearchPatient_003 : 82 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 19:07:32,210 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 19:07:32,210 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 19:07:38,569 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 19:07:38,971 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 19:07:57,281 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 19:07:57,573 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 19:08:19,892 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 19:08:19,892 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 19:08:22,011 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 19:08:22,011 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 19:08:27,493 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 19:08:38,639 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 19:08:40,284 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 19:08:43,068 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 19:08:43,068 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 19:08:47,889 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 19:08:58,823 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 19:08:59,758 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 19:09:04,188 : INFO : Test_Patien_Func : test_SearchPatient__002 : 57 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 19:09:07,007 : INFO : Test_Patien_Func : test_SearchPatient_003 : 61 : *************** Test_SearchPatient ***************** 
+2024-02-13 19:09:07,008 : INFO : Test_Patien_Func : test_SearchPatient_003 : 64 : *************** Navigating to Login ***************** 
+2024-02-13 19:09:12,552 : INFO : Test_Patien_Func : test_SearchPatient_003 : 66 : *************** Entering ID and Password and login ***************** 
+2024-02-13 19:09:28,301 : INFO : Test_Patien_Func : test_SearchPatient_003 : 68 : *************** Click on patient page ***************** 
+2024-02-13 19:09:29,000 : INFO : Test_Patien_Func : test_SearchPatient_003 : 71 : *************** Searching patient page ***************** 
+2024-02-13 19:09:30,004 : INFO : Test_Patien_Func : test_SearchPatient_003 : 77 : *************** Test_patient_list_display - pass***************** 
+2024-02-13 19:18:42,143 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 19:18:42,144 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 19:18:47,036 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 19:18:47,439 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 19:18:56,181 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 19:18:56,936 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 19:19:19,592 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 19:19:19,592 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 19:19:21,552 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 19:19:21,552 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 19:19:27,107 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 19:19:39,047 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 19:19:39,977 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 19:19:42,312 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 19:19:42,313 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 19:19:47,962 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 19:20:07,291 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 19:20:08,095 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 19:20:12,465 : INFO : Test_Patien_Func : test_SearchPatient__002 : 57 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 19:20:15,181 : INFO : Test_Patien_Func : test_SearchPatient_003 : 62 : *************** Test_SearchPatient ***************** 
+2024-02-13 19:20:15,181 : INFO : Test_Patien_Func : test_SearchPatient_003 : 65 : *************** Navigating to Login ***************** 
+2024-02-13 19:20:22,089 : INFO : Test_Patien_Func : test_SearchPatient_003 : 67 : *************** Entering ID and Password and login ***************** 
+2024-02-13 19:20:36,938 : INFO : Test_Patien_Func : test_SearchPatient_003 : 69 : *************** Click on patient page ***************** 
+2024-02-13 19:20:37,939 : INFO : Test_Patien_Func : test_SearchPatient_003 : 72 : *************** Searching patient page ***************** 
+2024-02-13 19:20:39,198 : INFO : Test_Patien_Func : test_SearchPatient_003 : 78 : *************** Test_patient_list_display - pass***************** 
+2024-02-13 19:48:15,823 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 19:48:15,823 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 19:48:22,591 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 19:48:22,891 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 19:48:31,947 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 19:48:32,318 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 19:48:54,695 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 19:48:54,695 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 19:48:56,854 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 19:48:56,854 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 19:49:04,949 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 19:49:15,476 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 19:49:16,294 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 19:49:18,845 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 19:49:18,845 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 19:49:24,846 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 19:49:33,739 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 19:49:34,778 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 19:49:39,071 : INFO : Test_Patien_Func : test_SearchPatient__002 : 57 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 19:49:42,379 : INFO : Test_Patien_Func : test_SearchPatient_003 : 62 : *************** Test_SearchPatient ***************** 
+2024-02-13 19:49:42,379 : INFO : Test_Patien_Func : test_SearchPatient_003 : 65 : *************** Navigating to Login ***************** 
+2024-02-13 19:49:46,887 : INFO : Test_Patien_Func : test_SearchPatient_003 : 67 : *************** Entering ID and Password and login ***************** 
+2024-02-13 19:49:57,171 : INFO : Test_Patien_Func : test_SearchPatient_003 : 69 : *************** Click on patient page ***************** 
+2024-02-13 19:49:58,166 : INFO : Test_Patien_Func : test_SearchPatient_003 : 72 : *************** Searching patient page ***************** 
+2024-02-13 19:49:59,406 : INFO : Test_Patien_Func : test_SearchPatient_003 : 78 : *************** Test_patient_list_display - pass***************** 
+2024-02-13 19:53:58,230 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 19:53:58,241 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 19:54:04,404 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 19:54:04,879 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 19:54:14,305 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 19:54:15,060 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 19:54:37,518 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 19:54:37,518 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 19:54:39,578 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 19:54:39,578 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 19:54:45,457 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 19:54:55,491 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 19:54:56,652 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 19:54:59,253 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 19:54:59,253 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 19:55:05,362 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 19:55:16,373 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 19:55:17,134 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 19:55:21,412 : INFO : Test_Patien_Func : test_SearchPatient__002 : 57 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 20:05:17,373 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 20:05:17,373 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 20:05:22,222 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 20:05:25,099 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 20:05:35,390 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 20:05:36,166 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 20:05:59,919 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:05:59,919 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:06:02,153 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 20:06:02,153 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 20:06:07,694 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 20:06:17,289 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 20:06:18,257 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 20:06:20,513 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 20:06:20,513 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 20:06:25,428 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 20:06:39,062 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 20:06:40,040 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 20:06:44,430 : INFO : Test_Patien_Func : test_SearchPatient__002 : 57 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 20:09:45,890 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 20:09:45,891 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 20:09:51,258 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 20:09:51,633 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 20:10:00,938 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 20:10:01,173 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 20:10:23,757 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:10:23,757 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:10:25,951 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 20:10:25,952 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 20:10:31,292 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 20:10:41,787 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 20:10:42,826 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 20:10:45,050 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 20:10:45,050 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 20:10:50,122 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 20:11:03,403 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 20:11:04,243 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 20:11:08,469 : INFO : Test_Patien_Func : test_SearchPatient__002 : 57 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 20:12:39,619 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 20:13:01,752 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:13:01,752 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:13:40,272 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 20:20:36,574 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 20:20:36,623 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 20:20:39,887 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 20:20:41,904 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 20:20:50,160 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 20:20:50,579 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 20:21:12,997 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:21:12,997 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:21:14,996 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 20:21:14,997 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 20:21:22,450 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 20:21:31,301 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 20:21:32,196 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 20:21:34,766 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 20:21:34,784 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 20:21:40,154 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 20:21:50,165 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 20:21:50,906 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 20:21:55,602 : INFO : Test_Patien_Func : test_SearchPatient__002 : 57 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 20:22:56,700 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 20:22:56,749 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 20:23:00,756 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 20:23:03,171 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 20:23:12,380 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 20:23:12,597 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 20:23:35,046 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:23:35,046 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:23:37,223 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 20:23:37,223 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 20:23:43,230 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 20:23:53,611 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 20:23:54,480 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 20:23:56,853 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 20:23:56,853 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 20:24:03,810 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 20:24:12,501 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 20:24:13,570 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 20:24:17,812 : INFO : Test_Patien_Func : test_SearchPatient__002 : 57 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 20:26:28,703 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 36 : *************** Test_001_Login-Admin ***************** 
+2024-02-13 20:26:28,704 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 20:26:34,598 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 41 : *************** Entering ID and Password ***************** 
+2024-02-13 20:26:35,040 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 44 : *************** Click on Login ***************** 
+2024-02-13 20:26:44,893 : INFO : Test_Login_Func : test_admin_login_genric_methods002 : 51 : *************** Test_001_Login-Admin - Pass ***************** 
+2024-02-13 20:26:45,173 : INFO : test_Check_Login_Api : test_Check_Login_Api : 26 : ************Test_Check login start*********** 
+2024-02-13 20:27:07,538 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:27:07,538 : INFO : test_Check_Login_Api : test_Check_Login_Api : 30 : ************Test_ Check login Passed*********** 
+2024-02-13 20:27:09,610 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 17 : *************** Test_patient_list_display ***************** 
+2024-02-13 20:27:09,611 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 20 : *************** Navigating to Login ***************** 
+2024-02-13 20:27:15,553 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 22 : *************** Entering ID and Password and login ***************** 
+2024-02-13 20:27:25,882 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 24 : *************** Click on patient page ***************** 
+2024-02-13 20:27:26,681 : INFO : Test_Patien_Func : test_patient_list_display_url_001 : 29 : *************** Test_patient_list_display - Pass  ***************** 
+2024-02-13 20:27:29,085 : INFO : Test_Patien_Func : test_SearchPatient__002 : 36 : *************** Test_SearchPatient ***************** 
+2024-02-13 20:27:29,086 : INFO : Test_Patien_Func : test_SearchPatient__002 : 39 : *************** Navigating to Login ***************** 
+2024-02-13 20:27:34,717 : INFO : Test_Patien_Func : test_SearchPatient__002 : 41 : *************** Entering ID and Password and login ***************** 
+2024-02-13 20:27:45,505 : INFO : Test_Patien_Func : test_SearchPatient__002 : 43 : *************** Click on patient page ***************** 
+2024-02-13 20:27:46,559 : INFO : Test_Patien_Func : test_SearchPatient__002 : 46 : *************** Searching patient page ***************** 
+2024-02-13 20:27:50,980 : INFO : Test_Patien_Func : test_SearchPatient__002 : 57 : *************** Test_patient_list_display - fail ***************** 
+2024-02-13 20:27:53,963 : INFO : Test_Patien_Func : test_SearchPatient_003 : 62 : *************** Test_SearchPatient ***************** 
+2024-02-13 20:27:53,963 : INFO : Test_Patien_Func : test_SearchPatient_003 : 65 : *************** Navigating to Login ***************** 
+2024-02-13 20:27:58,941 : INFO : Test_Patien_Func : test_SearchPatient_003 : 67 : *************** Entering ID and Password and login ***************** 
+2024-02-13 20:28:09,837 : INFO : Test_Patien_Func : test_SearchPatient_003 : 69 : *************** Click on patient page ***************** 
+2024-02-13 20:28:10,705 : INFO : Test_Patien_Func : test_SearchPatient_003 : 72 : *************** Searching patient page ***************** 
+2024-02-13 20:28:11,919 : INFO : Test_Patien_Func : test_SearchPatient_003 : 78 : *************** Test_patient_list_display - pass***************** 

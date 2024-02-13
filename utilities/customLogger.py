@@ -12,7 +12,7 @@ current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Create a platform-independent file path relative to the current working directory
 file_path = os.path.join(current_directory, directory, filename)
 
-print(file_path)
+# print(file_path)
 
 
 # class LogGen:
