@@ -1,7 +1,6 @@
 <a href="https://www.postman.com/"><img src="https://img1.wsimg.com/isteam/ip/bd3785cd-d6c4-4882-9b7c-6e71611da2b9/Remosys%20Logo%202.png" width="100" height="100" /></a><br />
 
-<img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" width="50" height="50" />
-<img src="https://docs.pytest.org/en/8.0.x/_static/pytest_logo_curves.svg" width="50" height="50" />
+<img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" width="50" height="50" /><img src="https://docs.pytest.org/en/8.0.x/_static/pytest_logo_curves.svg" width="50" height="50" />
 
 ## RemoSys Tech Pune - Python Automation Demo
 
@@ -159,13 +158,4 @@
 | zope.interface        | 6.1       |
 
 
-## Options
-
-| CLI Option | Description |
-| ------ | ------ |
-| --reporter-csvsimple-export <path> | Specify a path where the output CSV file will be written to disk. If not specified, the file will be written to `newman/` in the current working directory. |
-| --reporter-csvsimple-includeBody | If you wish to save the response body for each request, use this option. |
-
-```console
-node_modules/.bin/newman run postman_collection.json -e postman_environment.json -r csvsimple --reporter-csvsimple-includeBody
-```
+-----------------------------------------------------------
