@@ -6,15 +6,10 @@ import datetime
 import base64
 import os
 
-
-
-
 # --------------------------------------------------------------
-
 # Report Title
 def pytest_html_report_title(report):
     report.title = "Demo Hospitl CRM Web Application"
-
 
 #Test case Name
 # def pytest_html_results_table_row(report, cells):
@@ -32,48 +27,12 @@ def pytest_html_report_title(report):
 def pytest_addoption(parser):
     parser.addoption("--browser")
 
-
-# @pytest.fixture
-# def setup(request):
-#     global driver
-#     browser = request.config.getoption("--browser")
-#     if browser == 'chrome':
-#         driver = webdriver.Chrome()
-#         print("Launching chrome browser.........")
-#     elif browser == 'firefox':
-#         driver = webdriver.Firefox()
-#         print("Launching firefox browser.........")
-#     elif browser == 'edge':
-#         driver = webdriver.Edge()
-#         print("Launching firefox browser.........")
-#     else:
-#         driver = webdriver.Chrome()
-#     yield driver
-#     driver.close()
-
-#
 # --------------------------------------------ENV Titles---------------------------------------------------
 def pytest_configure(config):
     config.stash[metadata_key]["Compony"] = "RemoSys Tech , Pune"
     config.stash[metadata_key]['Project Name'] = 'Demo Hospitl'
     config.stash[metadata_key]['Module Name'] = 'CRM'
     config.stash[metadata_key]['Tester'] = 'Akash Dilwale'
-
-
-# # -----------------------------Cross Browser Run-----------------------------------------------------
-# @pytest.fixture(params=["chrome", "firefox","edge"],scope="module")
-# def setup(request):
-#     global driver
-#     if request.param == "chrome":
-#         driver = webdriver.Chrome()
-#         print("Launching chrome browser.........")
-#     elif request.param == "firefox":
-#         driver = webdriver.Firefox()
-#     elif request.param == "edge":
-#         driver = webdriver.Edge()
-#     yield driver
-#     driver.close()
-
 
 # -----------------------------------------Screenshots Funcation -----------------------------------------------------
 # directory components ScreenShot
