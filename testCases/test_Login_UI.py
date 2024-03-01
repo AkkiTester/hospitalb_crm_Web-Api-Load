@@ -1,3 +1,4 @@
+from utilities.browser import setup
 from utilities.readconfig import Readconfig
 from pageObject.loginPage import LoginPage
 from utilities.customLogger import LogGen

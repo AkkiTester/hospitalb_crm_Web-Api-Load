@@ -54,19 +54,28 @@ class AutomationClass:
         elif action == 'scroll':  # Scroll
             element = driver.find_element(args[0], args[1])
             driver.execute_script("arguments[0].scrollIntoView();", element)
-        elif action == 'click_element_to_be_clickable10sec':
+        elif action == 'implicitly_wait':
+            driver.implicitly_wait(args[0])
+        elif action == 'click_element_to_be_clickable':
             element = WebDriverWait(driver, args[0]).until(EC.element_to_be_clickable(args[1]))
             element.click()
         elif action == 'text':
             element = driver.find_element(*args)
             return element.text
-        elif action == 'element_to_be_clickable':
+        elif action == 'element_to_be_clickable10sec':
             WebDriverWait(driver, 10).until(EC.element_to_be_clickable(args[0]))
         else:
             raise ValueError("Invalid action provided")
 
 #--------------------------------Self Healing Method------------------------------------
     def find_element_with_self_healing(self, locators):
+        """
+        Self Healing Method
+        Parameters:
+            locator (list) : Locator For Self Healing
+        :param locators:
+        :return element:
+        """
         driver = self.driver
         for locator in list(locators):
             try:
@@ -91,3 +100,5 @@ class AutomationClass:
                 return element
             except NoSuchElementException:
                 continue
+
+

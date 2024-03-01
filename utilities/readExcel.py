@@ -17,3 +17,14 @@ def writeData(file,sheetname,rownum,columnno,data):
     sheet=workbook[sheetname]
     sheet.cell(row=rownum, column=columnno).value=data
     workbook.save(file)
+
+def alldata(path1,sheetName):
+    data=[]
+    for r in range (2,getRowCount(path1,sheetName)):
+
+        data2=[]
+        data2.append(readData(path1,sheetName,r,1))
+        data2.append(readData(path1,sheetName,r,2))
+        data.append(data2)
+        data2=[]
+    return data
