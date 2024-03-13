@@ -3,7 +3,7 @@ from utilities.generic_func import AutomationClass
 
 class LoginPageGenric(AutomationClass):
     # locator
-    textbox_username = [["xpath", "//input[@name='email']"], ["id", "submit"]]
+    textbox_username = [["id", "akash"], ["xpath", "//input[@name='email']"],["id", "submit"]]
     textbox_password = [["xpath", "//input[@name='password']"], ["id", "submit"]]
     button_login = [ ["xpath", "//input[@type='submit']"] , ["id", "submit"]]
     link_logout = [['xpath',"//a[@class='dropdown-toggle']"],['xpath',"//a[normalize-space()='Sign out']"],["id", "submit"]]
@@ -28,6 +28,6 @@ class LoginPageGenric(AutomationClass):
         self.action('click',self.link_logout)
         self.action('click',self.signout)
     def loginfullstep(self, username, password):
-        self.setUserName(username)
-        self.setPassword(password)
+        self.action('setText', self.textbox_username, username)
+        self.action('setText', self.textbox_password, password)
         self.clickLogin()

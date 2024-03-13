@@ -1,9 +1,7 @@
 from selenium import webdriver
 import pytest
 
-
-
-# ------------------------------------------Single Browser-----------------------------
+# # ------------------------------------------Single Browser-----------------------------
 @pytest.fixture
 def setup(request):
     global driver
@@ -29,13 +27,13 @@ def setup(request):
 #     global driver
 #     if request.param == "chrome":
 #         driver = webdriver.Chrome()
-#         print("Launching chrome browser.........")
 #     elif request.param == "firefox":
 #         driver = webdriver.Firefox()
 #     elif request.param == "edge":
 #         driver = webdriver.Edge()
 #     yield driver
 #     driver.close()
+
 #-----------------------------------------------------------------------------------------------
 
 def capture_screenshot(name):

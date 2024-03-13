@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+}
+
+/* Test Result Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.passed {
+    color: #2ecc71;
+}
+
+.failed {
+    color: #e74c3c;
+}
+
+.skipped {
+    color: #95a5a6;
+}
+
+/* Test Case Details */
+.test-case {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.test-case-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.test-steps {
+    margin-top: 10px;
+}
+
+.step {
+    margin-bottom: 5px;
+}
+
+.step-passed {
+    color: #2ecc71;
+}
+
+.step-failed {
+    color: #e74c3c;
+}
+
+/* Logs (Optional) */
+.logs {
+    font-family: monospace;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Additional elements (modify as needed): */
+.summary {
+    font-weight: bold;
+}
+
+.environment {
+    margin-top: 20px;
+}
+
+.environment-item {
+    margin-bottom: 5px;
+}

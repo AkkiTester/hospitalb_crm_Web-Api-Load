@@ -136,3 +136,33 @@ print(screenshot_path)
 # driver = webdriver.Chrome()
 # driver.get('https://hospitalb.com/login')
 # driver.get_screenshot_as_file(screenshot_path+r'\Akash.png')
+from utilities.browser import browserindex
+a= 'akash-dilwaletest'
+if a.count('-')==0:
+    print('- not')
+    print(a)
+elif a.count('-')==1:
+    print('count 1')
+    print(a.split("-")[0])
+elif a.count('-')==2:
+    print('count 2')
+    print('-'.join(a.split("-")[0:-1]))
+
+print("-----------------------------------------")
+print(a.count('-'))
+print((a.split('-')[0:browserindex()]))
+new_a = '-'.join(a.split('-')[0:browserindex()])
+
+print(new_a)
+# if a.count('-')==1:
+#     a=a.split('-')[0:-1]
+#     print(a)
+#     a="".join(a)
+#     print(a)
+# if a.count('-')==2:
+#     a=a.split('-')[0:-1]
+#     print(a)
+#     a="".join(a)
+#     print(a)
+# a=a.replace('a','-').replace('b','-')
+# print(a)
