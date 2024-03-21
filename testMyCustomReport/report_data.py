@@ -1,4 +1,5 @@
 import json
+from testMyCustomReport.My_Report_Data_Main import ReportData3
 class ReportData:
     TestAllData = {}
 
@@ -69,5 +70,7 @@ a.SetTestCaseLog('INFO',"Checking Log2")
 a.SetTestResult(True)
 # print(report_data.TestAllData)
 print(ReportData.TestAllData)
-
-
+a= ReportData3()
+a.set_test_case_name('akash')
+a.set_test_case_log('Info','Akash')
+a.set_test_result(False)

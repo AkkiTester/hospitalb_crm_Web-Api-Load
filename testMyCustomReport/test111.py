@@ -1,4 +1,4 @@
-from MyCustomReport.my import ReportData
+from testMyCustomReport.my import ReportData
 
 c=ReportData()
 b=ReportData()

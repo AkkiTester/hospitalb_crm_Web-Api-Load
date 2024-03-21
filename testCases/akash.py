@@ -1,3 +1,5 @@
+import datetime
+
 import requests
 import os
 import selenium
@@ -128,32 +130,32 @@ import pytest
 
 #
 # Screenshots Funcation
-screenshot_folder = 'Screenshot'
-current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-screenshot_path = os.path.join(current_directory, screenshot_folder)
-print(screenshot_path)
+# screenshot_folder = 'Screenshot'
+# current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# screenshot_path = os.path.join(current_directory, screenshot_folder)
+# print(screenshot_path)
 
 # driver = webdriver.Chrome()
 # driver.get('https://hospitalb.com/login')
 # driver.get_screenshot_as_file(screenshot_path+r'\Akash.png')
-from utilities.browser import browserindex
-a= 'akash-dilwaletest'
-if a.count('-')==0:
-    print('- not')
-    print(a)
-elif a.count('-')==1:
-    print('count 1')
-    print(a.split("-")[0])
-elif a.count('-')==2:
-    print('count 2')
-    print('-'.join(a.split("-")[0:-1]))
-
-print("-----------------------------------------")
-print(a.count('-'))
-print((a.split('-')[0:browserindex()]))
-new_a = '-'.join(a.split('-')[0:browserindex()])
-
-print(new_a)
+# from utilities.browser import browserindex
+# a= 'akash-dilwaletest'
+# if a.count('-')==0:
+#     print('- not')
+#     print(a)
+# elif a.count('-')==1:
+#     print('count 1')
+#     print(a.split("-")[0])
+# elif a.count('-')==2:
+#     print('count 2')
+#     print('-'.join(a.split("-")[0:-1]))
+#
+# print("-----------------------------------------")
+# print(a.count('-'))
+# print((a.split('-')[0:browserindex()]))
+# new_a = '-'.join(a.split('-')[0:browserindex()])
+#
+# print(new_a)
 # if a.count('-')==1:
 #     a=a.split('-')[0:-1]
 #     print(a)
@@ -166,3 +168,23 @@ print(new_a)
 #     print(a)
 # a=a.replace('a','-').replace('b','-')
 # print(a)
+
+
+# my_dict = {'ad':{}}
+# print(my_dict)
+# new_dict = {'c': 3, 'd': 4}
+# a=my_dict['ad']
+# my_dict['ad'].update(new_dict)
+b=[]
+b.append('a')
+
+#print(datetime.datetime.now().strftime("%m.%d.%Y %I:%M:%S %p"))
+a={'akash':{}}
+print(a)
+a['Akash']={'log':[],'Result':False}
+print(a)
+print(a['Akash'])
+print((a['Akash'])['log'])
+(a['Akash'])['log'].append('a')
+print(a['Akash'])
+print((a['Akash'])['log'])

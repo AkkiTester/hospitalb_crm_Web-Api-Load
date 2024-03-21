@@ -36,4 +36,32 @@
         ],
         "Test1Result": true
     }
+}{
+    "Test1": {
+        "Test1": [
+            [
+                "INFO",
+                "Checking Log"
+            ],
+            [
+                "INFO",
+                "Checking Log2"
+            ]
+        ],
+        "Test1Result": true
+    }
+}{
+    "Test1": {
+        "Test1": [
+            [
+                "INFO",
+                "Checking Log"
+            ],
+            [
+                "INFO",
+                "Checking Log2"
+            ]
+        ],
+        "Test1Result": true
+    }
 }

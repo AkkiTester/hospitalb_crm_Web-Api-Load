@@ -1,5 +1,7 @@
 import json
 
+from testMyCustomReport.report_data3 import ReportData3
+
 
 class ReportData:
     def __init__(self, report_name="report_data.json"):

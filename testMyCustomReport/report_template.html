@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .test-case {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+        .test-name {
+            font-size: 20px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .test-name:hover {
+            color: #007bff;
+        }
+        .test-details {
+            display: none;
+        }
+        .result-pass {
+            color: green;
+        }
+        .result-fail {
+            color: red;
+        }
+        .log-entry {
+            margin-left: 20px;
+            color: #666;
+        }
+        .result-graph {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Test Report</h1>
+        {% for test_name, test_data in data.items() %}
+            <div class="test-case">
+                <div class="test-name" onclick="toggleDetails('{{test_name}}')">{{test_name}}</div>
+                <div class="test-details">
+                    {% if 'Result' in test_name %}
+                        <p>Result: <strong class="{{'result-pass' if test_data else 'result-fail'}}">{{"Pass" if test_data else "Fail"}}</strong></p>
+                    {% else %}
+                        {% for log_entry in test_data %}
+                            <div class="log-entry">
+                                <p><strong>{{log_entry.log_type}}</strong>: {{log_entry.log_message}}</p>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+        <div class="result-graph">
+            <canvas id="testResultsChart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Extract test names and results from data
+        var testResults = [];
+        var passedCount = 0;
+        var failedCount = 0;
+        {% for test_name, test_data in data.items() %}
+            {% if 'Result' in test_name %}
+                {% if test_data %}
+                    passedCount++;
+                {% else %}
+                    failedCount++;
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        testResults.push(passedCount);
+        testResults.push(failedCount);
+
+        // Create a chart
+        var ctx = document.getElementById('testResultsChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['Passed', 'Failed'],
+                datasets: [{
+                    label: 'Test Results',
+                    data: testResults,
+                    backgroundColor: ['rgba(75, 192, 192, 0.2)', 'rgba(255, 99, 132, 0.2)'],
+                    borderColor: ['rgba(75, 192, 192, 1)', 'rgba(255, 99, 132, 1)'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+            }
+        });
+
+        // Function to toggle test case details
+        function toggleDetails(testName) {
+            var details = document.querySelector('.' + testName + '-details');
+            details.style.display = details.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>

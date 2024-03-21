@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <!-- Include ApexCharts library -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <style>
+    / Basic styles for the header /
+    header {
+        background-color: #8EF9F4;  / Replace with your desired color /
+        color: #020202;  / Optional: Set text color for contrast (if background is dark) /
+        width: auto;
+        font-size: 26px;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        align-items: center;
+    }
+    table, th, td {
+        border: 1px solid black;
+    }
+    body {
+
+    / Additional styles for the body/page /
+    }
+    / Test case header /
+    .test-case-header {
+        background-color: #f2f2f2;
+        padding: 0px;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    / Styles for the test case section /
+    .test-case {
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+        padding: 3px;
+    }
+    / Log section /
+    .log-section {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .log-header {
+        background-color: #f2f2f2;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        font-weight: bold;
+    }
+    .log-entry {
+        margin-bottom: 5px;
+    }
+    / Search bar /
+    .search-bar {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    / Graph section /
+    .graph-section {
+        margin-top: 0px;
+        position: relative;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .total-count {
+        position: absolute;
+        top: -20px;
+        left: 38%;
+        transform: translateX(-50%);
+        font-weight: bold;
+    }
+    .apexchart {
+        margin-top: 20px;
+        width: 50px; / Adjust width /
+        height: 50px; / Adjust height /
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        Report Name
+    </header>
+
+        <!-- Search bar -->
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search Test Case..." onkeyup="searchTestCases()">
+    </div>
+
+
+    <!-- Graph section -->
+    <div class="graph-section"  style="">
+        <div class="total-count">Total: {{ total_tests }} </div>
+        <!-- ApexCharts Donut Chart -->
+        <div id="apexchart" ></div>
+
+    </div>
+
+
+    <!-- Test Cases Section -->
+    {% for test_name, test_data in test_cases.items() %}
+    <div class="test-case" style="background-color:
+        {% if test_data['Skipped'] %}
+            #F3FE05 / Yellow /
+        {% elif not test_data['Skipped'] and test_data['Result'] %}
+            #4CAF50 / Green /
+        {% else %}
+            #FF5733 / Red /
+        {% endif %}">
+        <div class="test-case-header" onclick="toggleLog(this)">
+             <div >
+                <strong>{{ test_name }}</strong> <!-- Test name on the left -->
+            </div>
+            <div>
+                <!-- Start time and end time on the right -->
+                Start Time: {{ test_data["StartTime"] }}<br>
+                End Time: {{ test_data["EndTime"] }}
+            </div>
+
+        </div>
+        <div class="log-section" style="display: none;">
+            <div style="float: right;">
+                <strong>Severity:</strong> {{ test_data["Severity"] }}
+                <strong>Priority:</strong> {{ test_data["Priority"] }}
+            </div>
+            <div>
+                <strong>Result:</strong>
+                {% if test_data["Result"] == True %}
+                    Passed
+                {% elif test_data["Result"] == False %}
+                    Failed
+                {% elif test_data["Result"] == "Skipped" %}
+                    Skipped
+                {% endif %}
+            </div>
+
+            <div class="log-header">Log :</div>
+            <ul>
+                {% for log_entry in test_data["log"] %}
+                <li class="log-entry">{{ log_entry[0] }} -&nbsp;&nbsp;&nbsp;&nbsp; {{ log_entry[1] }}:&nbsp;&nbsp;&nbsp;&nbsp;{{ log_entry[2] }}</li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>
+    {% endfor %}
+
+    <!--   platform-->
+    <div style="float: right;">
+        <p>System : {{ platform }}</p>
+    </div>
+
+
+    <!-- Script for ApexCharts and functionality -->
+    <script>
+    // Graph data for ApexCharts
+    var passedTestsApex = {{ passed_tests }};
+    var SkippedTestsApex= {{ Skipped_tests }}
+    var failedTestsApex = {{ total_tests - passed_tests - Skipped_tests }};
+
+    // ApexCharts initialization
+    var options = {
+        series: [passedTestsApex, failedTestsApex,SkippedTestsApex],
+        chart: {
+            type: 'donut',
+        },
+         plotOptions: {
+        pie: {
+            donut: {
+                size: '65%' // Adjust the width of the circular bar here
+            }
+        }
+    },
+        labels: ['Passed ' + passedTestsApex , 'Failed ' + failedTestsApex, 'Skipped ' +SkippedTestsApex],
+        colors: ['#4CAF50', '#FF5733', '#F3FE05' ],
+    };
+
+    var chart = new ApexCharts(document.querySelector("#apexchart"), options);
+    chart.render();
+
+    // Search functionality
+    function searchTestCases() {
+        var input, filter, testCases, testCase, i, txtValue;
+        input = document.getElementById('search-input');
+        filter = input.value.toUpperCase();
+        testCases = document.getElementsByClassName('test-case');
+        for (i = 0; i < testCases.length; i++) {
+            testCase = testCases[i].getElementsByClassName('test-case-header')[0];
+            txtValue = testCase.textContent || testCase.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                testCases[i].style.display = "";
+            } else {
+                testCases[i].style.display = "none";
+            }
+        }
+    }
+
+    // Function to toggle log visibility
+    function toggleLog(element) {
+        var logSection = element.nextElementSibling;
+        if (logSection.style.display === "none") {
+            logSection.style.display = "block";
+        } else {
+            logSection.style.display = "none";
+        }
+    }
+    </script>
+</body>
+</html>

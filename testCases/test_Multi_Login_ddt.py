@@ -37,10 +37,10 @@ class Test_DDT_Login:
         a=True
         try:
             if self.driver.find_element("xpath", "//h1[normalize-space()='Demo Hospital Statistics']").is_displayed():
-                self.logger.info(f"Login {user} Test passed")
+                self.logger.info(f"Login {user} User is successfully logged in to the app")
             # time.sleep(2)
                 self.lp.clickLogout()
         except:
-            self.logger.info(f"Login {user} TestFails ")
+            self.logger.info(f"Login {user} Invalid user login : Username/Password is incorrect ")
             a = False
         assert a

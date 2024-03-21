@@ -1,4 +1,5 @@
 import platform
+import re
 import sys
 import pytest
 import pytest_html
@@ -16,6 +17,11 @@ import collections
 # Report Title
 def pytest_html_report_title(report):
     report.title = "Demo Hospitl CRM Web Application"
+
+# def pytest_html_results_table_html(report, data):
+#         a= data
+#         # print(a)
+#         data.append(a)
 
 # Test case Name
 # def pytest_html_results_table_row(report, cells):

@@ -1,0 +1,36 @@
+{
+    "test 1": {
+        "log": [
+            [
+                "05:39:08 PM",
+                "info",
+                "info first"
+            ],
+            [
+                "05:39:08 PM",
+                "info2",
+                "info first2"
+            ]
+        ],
+        "StartTime": "03.18.2024 05:39:08 PM",
+        "EndTime": "03.18.2024 05:39:08 PM",
+        "Result": false
+    },
+    "test 2": {
+        "log": [
+            [
+                "05:39:08 PM",
+                "info",
+                "info first"
+            ],
+            [
+                "05:39:08 PM",
+                "info2",
+                "info first2"
+            ]
+        ],
+        "StartTime": "03.18.2024 05:39:08 PM",
+        "EndTime": "03.18.2024 05:39:08 PM",
+        "Result": true
+    }
+}

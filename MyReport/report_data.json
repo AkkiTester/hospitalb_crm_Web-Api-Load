@@ -1,0 +1,71 @@
+{
+    "My Test  Name Fail": {
+        "log": [
+            [
+                "03:48:00 PM",
+                "info",
+                "info first"
+            ],
+            [
+                "03:48:00 PM",
+                "info2",
+                "info first2"
+            ]
+        ],
+        "StartTime": "21.03.2024 03:48:00 PM",
+        "EndTime": "21.03.2024 03:48:00 PM",
+        "Result": false,
+        "Skipped": false,
+        "Severity": "High",
+        "Priority": "High"
+    },
+    "My Test Name Pass": {
+        "log": [
+            [
+                "03:48:00 PM",
+                "info",
+                "info first"
+            ],
+            [
+                "03:48:00 PM",
+                "info2",
+                "info first2"
+            ]
+        ],
+        "StartTime": "21.03.2024 03:48:00 PM",
+        "EndTime": "21.03.2024 03:48:00 PM",
+        "Result": true,
+        "Skipped": false,
+        "Severity": "High",
+        "Priority": "High"
+    },
+    "My Test Name Skipped": {
+        "log": [],
+        "StartTime": "21.03.2024 03:48:00 PM",
+        "EndTime": "21.03.2024 03:48:00 PM",
+        "Result": "Skipped",
+        "Skipped": true,
+        "Severity": "High",
+        "Priority": "High"
+    },
+    "My Test Name Pass 2": {
+        "log": [
+            [
+                "03:48:00 PM",
+                "info",
+                "info first"
+            ],
+            [
+                "03:48:00 PM",
+                "info2",
+                "info first2"
+            ]
+        ],
+        "StartTime": "21.03.2024 03:48:00 PM",
+        "EndTime": "21.03.2024 03:48:00 PM",
+        "Result": true,
+        "Skipped": false,
+        "Severity": "High",
+        "Priority": "High"
+    }
+}
