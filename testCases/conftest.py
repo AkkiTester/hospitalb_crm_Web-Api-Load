@@ -1,3 +1,6 @@
+import json
+from utilities.reportGen import generate_report
+from utilities.My_Report_Data_Main import ReportData
 import platform
 import re
 import sys
@@ -162,3 +165,13 @@ def pytest_runtest_makereport(item, call):
 
                 extra.append(pytest_html.extras.html(html))
         report.extra = extra
+
+
+@pytest.hookimpl(tryfirst=True)
+def pytest_sessionfinish(session, exitstatus):
+    # Load report data from JSON file
+    with open(ReportData.report_file, "r") as f:
+        report_data = json.load(f)
+
+    # Generate the report
+    generate_report(report_data)

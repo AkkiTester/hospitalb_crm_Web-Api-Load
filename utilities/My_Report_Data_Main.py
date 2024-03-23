@@ -1,11 +1,21 @@
 import datetime
 import json
+import os
 import threading
+
+directory = 'Reports'
+filename = 'report_data.json'
+
+# Get the current working directory
+current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Create a platform-independent file path relative to the current working directory
+file_pathRD = os.path.join(current_directory, directory, filename)
 
 class ReportData:
     TestAllData = {}
     lock = threading.Lock()
-    report_file = r'C:/Users/ADMIN/Desktop/AkashAutomationDemoProject/Reports/report_data.json'
+    report_file = file_pathRD
 
 
 

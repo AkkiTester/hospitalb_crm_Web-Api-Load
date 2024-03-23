@@ -1,0 +1,231 @@
+{
+    "Test Search Patient Func 2": {
+        "log": [],
+        "StartTime": "22.03.2024 02:05:38 PM",
+        "EndTime": "22.03.2024 02:05:38 PM",
+        "Result": "Skipped",
+        "Skipped": true,
+        "Severity": "Mediuam",
+        "Priority": "High"
+    },
+    "Verify admin login": {
+        "log": [
+            [
+                "02:05:41 PM",
+                "INFO",
+                "Navigating to Login Page"
+            ],
+            [
+                "02:05:46 PM",
+                "INFO",
+                "Entering ID and Password "
+            ],
+            [
+                "02:05:47 PM",
+                "INFO",
+                "Click on Login Button"
+            ],
+            [
+                "02:05:51 PM",
+                "INFO",
+                "Admin Sucssesfuly login "
+            ]
+        ],
+        "StartTime": "22.03.2024 02:05:41 PM",
+        "EndTime": "22.03.2024 02:05:51 PM",
+        "Result": true,
+        "Skipped": false,
+        "Severity": "High",
+        "Priority": "High"
+    },
+    "verify login for admin@gmail.com": {
+        "log": [
+            [
+                "02:05:55 PM",
+                "INFO",
+                "Navigating Login Page"
+            ],
+            [
+                "02:06:02 PM",
+                "INFO",
+                "Entering ID and Password "
+            ],
+            [
+                "02:06:02 PM",
+                "INFO",
+                "Click on Login Button"
+            ],
+            [
+                "02:06:08 PM",
+                "INFO",
+                "Login admin@gmail.com User is successfully logged in to the app"
+            ]
+        ],
+        "StartTime": "22.03.2024 02:05:55 PM",
+        "EndTime": "22.03.2024 02:06:08 PM",
+        "Result": true,
+        "Skipped": false,
+        "Severity": "Medium",
+        "Priority": "Medium"
+    },
+    "verify login for hr@gmail.com": {
+        "log": [
+            [
+                "02:06:14 PM",
+                "INFO",
+                "Navigating Login Page"
+            ],
+            [
+                "02:06:19 PM",
+                "INFO",
+                "Entering ID and Password "
+            ],
+            [
+                "02:06:20 PM",
+                "INFO",
+                "Click on Login Button"
+            ],
+            [
+                "02:06:24 PM",
+                "INFO",
+                "Login hr@gmail.com User is successfully logged in to the app"
+            ]
+        ],
+        "StartTime": "22.03.2024 02:06:14 PM",
+        "EndTime": "22.03.2024 02:06:24 PM",
+        "Result": true,
+        "Skipped": false,
+        "Severity": "Medium",
+        "Priority": "Medium"
+    },
+    "verify login for accountant@gmail.com": {
+        "log": [
+            [
+                "02:06:32 PM",
+                "INFO",
+                "Navigating Login Page"
+            ],
+            [
+                "02:06:38 PM",
+                "INFO",
+                "Entering ID and Password "
+            ],
+            [
+                "02:06:39 PM",
+                "INFO",
+                "Click on Login Button"
+            ],
+            [
+                "02:06:40 PM",
+                "INFO",
+                "Login accountant@gmail.com Invalid user login : Username/Password is incorrect "
+            ]
+        ],
+        "StartTime": "22.03.2024 02:06:32 PM",
+        "EndTime": "22.03.2024 02:06:40 PM",
+        "Result": false,
+        "Skipped": false,
+        "Severity": "Medium",
+        "Priority": "Medium"
+    },
+    "verify login for pathologist@gmail.com": {
+        "log": [
+            [
+                "02:06:46 PM",
+                "INFO",
+                "Navigating Login Page"
+            ],
+            [
+                "02:06:51 PM",
+                "INFO",
+                "Entering ID and Password "
+            ],
+            [
+                "02:06:52 PM",
+                "INFO",
+                "Click on Login Button"
+            ],
+            [
+                "02:06:56 PM",
+                "INFO",
+                "Login pathologist@gmail.com User is successfully logged in to the app"
+            ]
+        ],
+        "StartTime": "22.03.2024 02:06:46 PM",
+        "EndTime": "22.03.2024 02:06:56 PM",
+        "Result": true,
+        "Skipped": false,
+        "Severity": "Medium",
+        "Priority": "Medium"
+    },
+    "verify login for radiologist@gmail.com": {
+        "log": [
+            [
+                "02:07:04 PM",
+                "INFO",
+                "Navigating Login Page"
+            ],
+            [
+                "02:07:09 PM",
+                "INFO",
+                "Entering ID and Password "
+            ],
+            [
+                "02:07:10 PM",
+                "INFO",
+                "Click on Login Button"
+            ],
+            [
+                "02:07:14 PM",
+                "INFO",
+                "Login radiologist@gmail.com User is successfully logged in to the app"
+            ]
+        ],
+        "StartTime": "22.03.2024 02:07:04 PM",
+        "EndTime": "22.03.2024 02:07:14 PM",
+        "Result": true,
+        "Skipped": false,
+        "Severity": "Medium",
+        "Priority": "Medium"
+    },
+    "Test Search Patient Func": {
+        "log": [
+            [
+                "02:07:21 PM",
+                "INFO",
+                "Test_Search_Patient Start"
+            ],
+            [
+                "02:07:21 PM",
+                "INFO",
+                "Navigating to Login Page"
+            ],
+            [
+                "02:07:27 PM",
+                "INFO",
+                "Entering ID and Password and login"
+            ],
+            [
+                "02:07:35 PM",
+                "INFO",
+                "Click on patient page"
+            ],
+            [
+                "02:07:37 PM",
+                "INFO",
+                "Searching patient"
+            ],
+            [
+                "02:07:39 PM",
+                "INFO",
+                "Test Patient Serach - Fail"
+            ]
+        ],
+        "StartTime": "22.03.2024 02:07:21 PM",
+        "EndTime": "22.03.2024 02:07:39 PM",
+        "Result": false,
+        "Skipped": false,
+        "Severity": "Mediuam",
+        "Priority": "High"
+    }
+}
