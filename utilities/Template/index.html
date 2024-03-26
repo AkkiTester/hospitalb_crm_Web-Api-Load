@@ -62,6 +62,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
 }
 /* Graph section */
 .graph-section {
@@ -94,7 +95,7 @@ body {
 
         <!-- Search bar -->
     <div class="search-bar">
-        <input type="text" id="search-input" placeholder="Search Test Case..." onkeyup="searchTestCases()">
+        <input type="text" style="border: 2px solid #000;border-radius: 5px;height: 30px;width: 250px;" id="search-input" placeholder="Search Test Case..." onkeyup="searchTestCases()">
     </div>
 
 
@@ -129,10 +130,12 @@ body {
 
         </div>
         <div class="log-section" style="display: none;">
+            {% if test_data["Result"]==false %}
             <div style="float: right;">
                 <strong>Severity:</strong> {{ test_data["Severity"] }}
                 <strong>Priority:</strong> {{ test_data["Priority"] }}
             </div>
+            {% endif %}
             <div>
                 <strong>Result:</strong>
                 {% if test_data["Result"] == True %}
@@ -143,6 +146,11 @@ body {
                     Skipped
                 {% endif %}
             </div>
+            {% if test_data["Skipped"]==True %}
+            <div>
+                <strong>Reason:</strong> {{test_data["SkippedRe"]}}
+            </div>
+            {% endif %}
 
             <div class="log-header">Log :</div>
             <ul>

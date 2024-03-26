@@ -22,7 +22,7 @@ class ReportData:
     def __init__(self):
         self.TestName = ''
 
-    def SetTestCaseName(self,TestName,Skip :bool =False,Severity='High',Priority='High'):
+    def SetTestCaseName(self,TestName,Skip :bool =False,Severity='High',Priority='High',SkipResone=''):
         self.TestName = TestName
         if Skip :
             b= 'Skipped'
@@ -34,8 +34,9 @@ class ReportData:
                                            'EndTime': datetime.datetime.now().strftime("%d.%m.%Y %I:%M:%S %p"),
                                            'Result': b,
                                           'Skipped': Skip,
-                                          'Severity':Severity,
-                                          'Priority':Priority}
+                                          'SkippedRe': SkipResone,
+                                          'Severity': Severity,
+                                          'Priority': Priority}
         self._save_to_json()
 
     def SetTestCaseLog(self, LogType , LogMessage):

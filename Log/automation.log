@@ -6553,3 +6553,249 @@
 2024-03-22 14:07:35,782 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
 2024-03-22 14:07:37,229 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
 2024-03-22 14:07:39,683 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 14:47:42,145 : INFO : Test_Login_Func : test_01_admin_login : 22 : Test_001_Login-Admin  
+2024-03-26 14:47:42,203 : INFO : Test_Login_Func : test_01_admin_login : 25 : Navigating to Login Page 
+2024-03-26 14:47:49,652 : INFO : Test_Login_Func : test_01_admin_login : 28 : Entering ID and Password  
+2024-03-26 14:47:49,981 : INFO : Test_Login_Func : test_01_admin_login : 32 : Click on Login Button 
+2024-03-26 14:47:53,605 : INFO : Test_Login_Func : test_01_admin_login : 43 : Test_001_Login-Admin - Pass  
+2024-03-26 14:47:56,678 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login admin@gmail.com Test 
+2024-03-26 14:47:56,680 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 14:48:02,472 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 14:48:02,885 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 14:48:06,357 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login admin@gmail.com User is successfully logged in to the app 
+2024-03-26 14:48:10,235 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login hr@gmail.com Test 
+2024-03-26 14:48:10,291 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 14:48:16,132 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 14:48:16,447 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 14:48:19,389 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login hr@gmail.com User is successfully logged in to the app 
+2024-03-26 14:48:23,316 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login accountant@gmail.com Test 
+2024-03-26 14:48:23,318 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 14:48:28,179 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 14:48:28,538 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 14:48:29,615 : INFO : Test_DDT_Login : test_02_login_ddt : 52 : Login accountant@gmail.com Invalid user login : Username/Password is incorrect  
+2024-03-26 14:48:33,230 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login pathologist@gmail.com Test 
+2024-03-26 14:48:33,233 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 14:48:38,596 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 14:48:38,951 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 14:48:42,385 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login pathologist@gmail.com User is successfully logged in to the app 
+2024-03-26 14:48:46,722 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login radiologist@gmail.com Test 
+2024-03-26 14:48:46,724 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 14:48:52,211 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 14:48:52,545 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 14:48:56,834 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login radiologist@gmail.com User is successfully logged in to the app 
+2024-03-26 14:49:01,119 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 14:49:01,128 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 14:49:07,120 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 14:49:13,840 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 14:49:14,839 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 14:49:18,152 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 14:51:26,965 : INFO : Test_Login_Func : test_01_admin_login : 22 : Test_001_Login-Admin  
+2024-03-26 14:51:26,965 : INFO : Test_Login_Func : test_01_admin_login : 25 : Navigating to Login Page 
+2024-03-26 14:51:32,892 : INFO : Test_Login_Func : test_01_admin_login : 28 : Entering ID and Password  
+2024-03-26 14:51:33,212 : INFO : Test_Login_Func : test_01_admin_login : 32 : Click on Login Button 
+2024-03-26 14:51:36,999 : INFO : Test_Login_Func : test_01_admin_login : 43 : Test_001_Login-Admin - Pass  
+2024-03-26 14:51:39,271 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login admin@gmail.com Test 
+2024-03-26 14:51:39,282 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 14:51:44,439 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 14:51:44,758 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 14:51:48,692 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login admin@gmail.com User is successfully logged in to the app 
+2024-03-26 14:51:52,586 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login hr@gmail.com Test 
+2024-03-26 14:51:52,676 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 14:51:58,013 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 14:51:58,349 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 14:52:02,062 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login hr@gmail.com User is successfully logged in to the app 
+2024-03-26 14:52:06,000 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login accountant@gmail.com Test 
+2024-03-26 14:52:06,002 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 14:52:11,059 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 14:52:11,379 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 14:52:12,580 : INFO : Test_DDT_Login : test_02_login_ddt : 52 : Login accountant@gmail.com Invalid user login : Username/Password is incorrect  
+2024-03-26 14:52:15,539 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login pathologist@gmail.com Test 
+2024-03-26 14:52:15,543 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 14:52:21,680 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 14:52:22,321 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 14:52:26,197 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login pathologist@gmail.com User is successfully logged in to the app 
+2024-03-26 14:52:29,926 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login radiologist@gmail.com Test 
+2024-03-26 14:52:29,928 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 14:52:35,183 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 14:52:35,489 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 14:52:39,449 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login radiologist@gmail.com User is successfully logged in to the app 
+2024-03-26 14:52:43,525 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 14:52:43,530 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 14:52:48,101 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 14:52:55,672 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 14:52:56,513 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 14:52:58,830 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 15:13:35,398 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 15:13:35,401 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 15:13:40,947 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 15:13:49,090 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 15:13:49,821 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 15:13:52,721 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 15:15:22,886 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 15:15:22,895 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 15:15:28,437 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 15:15:35,703 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 15:15:36,473 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 15:15:38,705 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 15:16:15,138 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 15:16:15,141 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 15:16:19,942 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 15:16:26,821 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 15:16:27,786 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 15:16:30,238 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 15:24:16,357 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 15:24:16,360 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 15:24:21,843 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 15:24:30,120 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 15:24:30,829 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 15:24:33,585 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 15:46:13,424 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 15:46:13,428 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 15:46:19,069 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 15:46:26,942 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 15:46:27,642 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 15:46:29,840 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 15:58:49,087 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 15:58:49,091 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 15:58:54,914 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 15:59:02,185 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 15:59:02,887 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 15:59:05,114 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 15:59:41,751 : INFO : Test_Login_Func : test_01_admin_login : 22 : Test_001_Login-Admin  
+2024-03-26 15:59:41,752 : INFO : Test_Login_Func : test_01_admin_login : 25 : Navigating to Login Page 
+2024-03-26 15:59:47,891 : INFO : Test_Login_Func : test_01_admin_login : 28 : Entering ID and Password  
+2024-03-26 15:59:48,222 : INFO : Test_Login_Func : test_01_admin_login : 32 : Click on Login Button 
+2024-03-26 15:59:52,076 : INFO : Test_Login_Func : test_01_admin_login : 43 : Test_001_Login-Admin - Pass  
+2024-03-26 15:59:54,345 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login admin@gmail.com Test 
+2024-03-26 15:59:54,427 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 15:59:59,403 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 15:59:59,718 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:00:03,504 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login admin@gmail.com User is successfully logged in to the app 
+2024-03-26 16:00:07,867 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login hr@gmail.com Test 
+2024-03-26 16:00:07,869 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:00:13,565 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:00:13,909 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:00:18,284 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login hr@gmail.com User is successfully logged in to the app 
+2024-03-26 16:00:23,415 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login accountant@gmail.com Test 
+2024-03-26 16:00:23,418 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:00:28,622 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:00:28,939 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:00:30,070 : INFO : Test_DDT_Login : test_02_login_ddt : 52 : Login accountant@gmail.com Invalid user login : Username/Password is incorrect  
+2024-03-26 16:00:32,655 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login pathologist@gmail.com Test 
+2024-03-26 16:00:32,658 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:00:37,853 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:00:38,199 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:00:41,858 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login pathologist@gmail.com User is successfully logged in to the app 
+2024-03-26 16:00:45,372 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login radiologist@gmail.com Test 
+2024-03-26 16:00:45,390 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:00:50,730 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:00:51,108 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:00:54,996 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login radiologist@gmail.com User is successfully logged in to the app 
+2024-03-26 16:00:58,395 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 16:00:58,403 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 16:01:03,926 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 16:01:11,471 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 16:01:12,357 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 16:01:15,446 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 16:17:23,784 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 16:17:23,794 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 16:17:29,010 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 16:17:36,341 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 16:17:37,198 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 16:17:40,111 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 16:23:27,302 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 16:23:27,305 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 16:23:32,072 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 16:23:39,169 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 16:23:39,920 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 16:23:42,092 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 16:25:34,425 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 16:25:34,428 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 16:25:39,400 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 16:25:47,180 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 16:25:48,100 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 16:25:50,375 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 16:27:10,561 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 16:27:10,567 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 16:27:15,787 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 16:27:23,356 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 16:27:24,337 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 16:27:26,496 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 16:27:59,249 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 16:27:59,259 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 16:28:04,355 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 16:28:12,247 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 16:28:13,435 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 16:28:16,888 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 16:30:06,572 : INFO : Test_Login_Func : test_01_admin_login : 22 : Test_001_Login-Admin  
+2024-03-26 16:30:06,573 : INFO : Test_Login_Func : test_01_admin_login : 25 : Navigating to Login Page 
+2024-03-26 16:30:12,112 : INFO : Test_Login_Func : test_01_admin_login : 28 : Entering ID and Password  
+2024-03-26 16:30:12,444 : INFO : Test_Login_Func : test_01_admin_login : 32 : Click on Login Button 
+2024-03-26 16:30:16,285 : INFO : Test_Login_Func : test_01_admin_login : 43 : Test_001_Login-Admin - Pass  
+2024-03-26 16:30:18,585 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login admin@gmail.com Test 
+2024-03-26 16:30:18,607 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:30:23,742 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:30:24,080 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:30:27,843 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login admin@gmail.com User is successfully logged in to the app 
+2024-03-26 16:30:31,310 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login hr@gmail.com Test 
+2024-03-26 16:30:31,311 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:30:36,355 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:30:36,658 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:30:40,220 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login hr@gmail.com User is successfully logged in to the app 
+2024-03-26 16:30:43,684 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login accountant@gmail.com Test 
+2024-03-26 16:30:43,687 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:30:49,084 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:30:49,433 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:30:50,443 : INFO : Test_DDT_Login : test_02_login_ddt : 52 : Login accountant@gmail.com Invalid user login : Username/Password is incorrect  
+2024-03-26 16:30:53,241 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login pathologist@gmail.com Test 
+2024-03-26 16:30:53,243 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:30:58,225 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:30:58,650 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:31:02,497 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login pathologist@gmail.com User is successfully logged in to the app 
+2024-03-26 16:31:06,464 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login radiologist@gmail.com Test 
+2024-03-26 16:31:06,467 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:31:11,166 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:31:11,498 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:31:15,253 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login radiologist@gmail.com User is successfully logged in to the app 
+2024-03-26 16:31:19,012 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 16:31:19,016 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 16:31:23,630 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 16:31:30,003 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 16:31:30,663 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 16:31:33,302 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  
+2024-03-26 16:36:53,655 : INFO : Test_Login_Func : test_01_admin_login : 22 : Test_001_Login-Admin  
+2024-03-26 16:36:53,656 : INFO : Test_Login_Func : test_01_admin_login : 25 : Navigating to Login Page 
+2024-03-26 16:36:59,195 : INFO : Test_Login_Func : test_01_admin_login : 28 : Entering ID and Password  
+2024-03-26 16:36:59,534 : INFO : Test_Login_Func : test_01_admin_login : 32 : Click on Login Button 
+2024-03-26 16:37:03,152 : INFO : Test_Login_Func : test_01_admin_login : 43 : Test_001_Login-Admin - Pass  
+2024-03-26 16:37:05,209 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login admin@gmail.com Test 
+2024-03-26 16:37:05,210 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:37:10,320 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:37:10,651 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:37:14,291 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login admin@gmail.com User is successfully logged in to the app 
+2024-03-26 16:37:17,793 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login hr@gmail.com Test 
+2024-03-26 16:37:17,794 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:37:22,809 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:37:23,127 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:37:26,750 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login hr@gmail.com User is successfully logged in to the app 
+2024-03-26 16:37:30,294 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login accountant@gmail.com Test 
+2024-03-26 16:37:30,296 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:37:35,002 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:37:35,414 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:37:36,573 : INFO : Test_DDT_Login : test_02_login_ddt : 52 : Login accountant@gmail.com Invalid user login : Username/Password is incorrect  
+2024-03-26 16:37:39,581 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login pathologist@gmail.com Test 
+2024-03-26 16:37:39,584 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:37:44,285 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:37:44,615 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:37:48,288 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login pathologist@gmail.com User is successfully logged in to the app 
+2024-03-26 16:37:51,713 : INFO : Test_DDT_Login : test_02_login_ddt : 28 : Starting Test_DDT_Login radiologist@gmail.com Test 
+2024-03-26 16:37:51,723 : INFO : Test_DDT_Login : test_02_login_ddt : 30 : Navigating Login Page 
+2024-03-26 16:37:56,492 : INFO : Test_DDT_Login : test_02_login_ddt : 36 : Entering ID and Password  
+2024-03-26 16:37:56,873 : INFO : Test_DDT_Login : test_02_login_ddt : 40 : Click on Login Button 
+2024-03-26 16:38:00,506 : INFO : Test_DDT_Login : test_02_login_ddt : 46 : Login radiologist@gmail.com User is successfully logged in to the app 
+2024-03-26 16:38:04,064 : INFO : Test_Patien_Func : test_03_SearchPatient : 22 : Test_Search_Patient Start 
+2024-03-26 16:38:04,069 : INFO : Test_Patien_Func : test_03_SearchPatient : 28 : Navigating to Login Page 
+2024-03-26 16:38:06,940 : INFO : Test_Patien_Func : test_03_SearchPatient : 31 : Entering ID and Password and login 
+2024-03-26 16:38:12,852 : INFO : Test_Patien_Func : test_03_SearchPatient : 34 : Click on patient page 
+2024-03-26 16:38:13,535 : INFO : Test_Patien_Func : test_03_SearchPatient : 38 : Searching patient 
+2024-03-26 16:38:15,743 : INFO : Test_Patien_Func : test_03_SearchPatient : 49 : Test_patient_Serach - fail  

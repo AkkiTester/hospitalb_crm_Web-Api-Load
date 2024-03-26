@@ -166,6 +166,12 @@ def pytest_runtest_makereport(item, call):
                 extra.append(pytest_html.extras.html(html))
         report.extra = extra
 
+#Remover old data
+@pytest.hookimpl(hookwrapper=True)
+def pytest_sessionstart(session):
+    ReportData.clear_report_file()
+    yield
+
 
 @pytest.hookimpl(tryfirst=True)
 def pytest_sessionfinish(session, exitstatus):

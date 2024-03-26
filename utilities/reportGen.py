@@ -3,6 +3,7 @@ import os
 import platform
 import pytest
 from jinja2 import Environment, FileSystemLoader
+from utilities.My_Report_Data_Main import ReportData
 
 directory = 'Reports'
 filename = 'HTMLReport.html'
@@ -17,7 +18,7 @@ file_pathhr = os.path.join(current_directory, directory, filename)
 file_pathhi = os.path.join(current_directory, dir, dir2 )
 
 def generate_report(report_data):
-    print(file_pathhi)
+
     total_tests = len(report_data)
     passed_tests = sum(1 for test in report_data.values() if test["Result"] == True)
     Skipped_tests = sum(1 for test in report_data.values() if test["Skipped"] == True)

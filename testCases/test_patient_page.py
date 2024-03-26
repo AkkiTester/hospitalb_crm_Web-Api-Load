@@ -56,7 +56,7 @@ class Test_Patien_Func:
             assert False
 
     Rr = ReportData()
-    Rr.SetTestCaseName('Test Search Patient Func 2',Skip=True, Severity='Mediuam', Priority='High')
+    Rr.SetTestCaseName('Test Search Patient Func 2',Skip=True, Severity='Mediuam', Priority='High',SkipResone='skipping test Reason')
     @pytest.mark.skip(reason="skipping the test case")
     def test_04_SearchPatient(self,setup):
         self.Rr = ReportData()
